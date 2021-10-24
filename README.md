@@ -1,5 +1,9 @@
 # JhNgxAdminDemo
 
+This application demonstrates [`ngx-admin`](https://akveo.github.io/ngx-admin/) alongside JHipster 7.3.1 auto generated Angular UI. `ngx-admin` can be reached by a menu on the JHipster navbar.
+
+## JHipster
+
 This application was generated using JHipster 7.3.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.3.1](https://www.jhipster.tech/documentation-archive/v7.3.1).
 
 ## Development

@@ -27,6 +27,18 @@ import { FooterComponent } from './layouts/footer/footer.component';
 import { PageRibbonComponent } from './layouts/profiles/page-ribbon.component';
 import { ActiveMenuDirective } from './layouts/navbar/active-menu.directive';
 import { ErrorComponent } from './layouts/error/error.component';
+import { CoreModule } from './ngx-admin/@core/core.module';
+import { ThemeModule } from './ngx-admin/@theme/theme.module';
+
+import {
+  NbChatModule,
+  NbDatepickerModule,
+  NbDialogModule,
+  NbMenuModule,
+  NbSidebarModule,
+  NbToastrModule,
+  NbWindowModule,
+} from '@nebular/theme';
 
 @NgModule({
   imports: [
@@ -36,6 +48,19 @@ import { ErrorComponent } from './layouts/error/error.component';
     // jhipster-needle-angular-add-module JHipster will add new module here
     EntityRoutingModule,
     AppRoutingModule,
+
+    NbSidebarModule.forRoot(),
+    NbMenuModule.forRoot(),
+    NbDatepickerModule.forRoot(),
+    NbDialogModule.forRoot(),
+    NbWindowModule.forRoot(),
+    NbToastrModule.forRoot(),
+    NbChatModule.forRoot({
+      messageGoogleMapKey: 'AIzaSyA_wNuCzia92MAmdLRzmqitRGvCF7wCZPY',
+    }),
+    CoreModule.forRoot(),
+    ThemeModule.forRoot(),
+
     // Set this to true to enable service worker (PWA)
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: false }),
     HttpClientModule,
