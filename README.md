@@ -2,6 +2,8 @@
 
 This application demonstrates [ngx-admin](https://akveo.github.io/ngx-admin/) alongside [JHipster](https://www.jhipster.tech/) 7.3.1 auto generated Angular UI. `ngx-admin` sample app can be reached by a menu on the JHipster navbar.
 
+Follow the git commits for details about the needed merging and adaptation of configuration files. Note that in the git comments it is suppose to have the application [akveo/ngx-admin](https://github.com/akveo/ngx-admin) cloned in a directory called `ngx-admin` alongside the directory containing the project.
+
 ## JHipster
 
 This application was generated using JHipster 7.3.1, you can find documentation and help at [https://www.jhipster.tech/documentation-archive/v7.3.1](https://www.jhipster.tech/documentation-archive/v7.3.1).
